@@ -1,0 +1,28 @@
+{
+  "name": "test-larne",
+  "version": "0.0.0-PLASEHOLDER",
+  "description": "test lerna repo",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "semantic-release": "lerna-semantic-release pre && lerna-semantic-release perform && lerna-semantic-release post"
+  },
+  "author": "lala momo",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-lerna-changelog": "^1.2.1",
+    "lerna": "^2.0.0-beta.38",
+    "lerna-semantic-release": "^9.0.7",
+    "semantic-release": "^6.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lalamomo2018/test-lerna.git"
+  }
+}
